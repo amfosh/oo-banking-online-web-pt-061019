@@ -18,7 +18,6 @@ class Transfer
       sender.balance -= amount
       receiver.deposit(amount)
       self.status = "complete"
-      else
       self.status = "rejected"
       "Transaction rejected. Please check your account balance."
   end
@@ -31,3 +30,4 @@ end
       self.status = "reversed"
     end
   end
+end
