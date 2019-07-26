@@ -31,4 +31,3 @@ end
       self.status = "reversed"
     end
   end
-end
